@@ -9,7 +9,7 @@ FreeKassa Python SDK — это библиотека для интеграции
 ## Установка
 
 ```bash
-pip install pyfkassa
+pip install fkassa
 ```
 
 ## Использование
@@ -19,7 +19,7 @@ pip install pyfkassa
 Для начала работы с библиотекой, вам необходимо инициализировать класс `FreeKassa` с вашими учетными данными:
 
 ```python
-from pyfreekassa import FreeKassa
+from fkassa import FreeKassa
 
 free_kassa = FreeKassa(
     shop_id=12345,
